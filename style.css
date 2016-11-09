@@ -196,6 +196,7 @@ body {
 .container-menu {
     display: inline-block;
 /*    border: 2px solid red;*/
+    background-color: #f8f8f8;
 
 }
 .new-product {
@@ -206,12 +207,13 @@ body {
     height: auto;
     margin-left: 30px;
     margin-top: -19px;
-    background-color: #ffffff;
+    background-color: #f8f8f8;
 }
 .product-main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #f8f8f8;
 }
 .new-product > p {
     margin-top: 31px;
@@ -221,24 +223,92 @@ body {
     font: italic 900 22px Roboto;
 }
 .product-miniature {
+/*    display: table-cell;*/
+    position: relative;
+    z-index: 1;
     margin-bottom: 30px;
+    vertical-align: middle;
     width: 270px;
     height: 320px;
-    float:left
+    float:left;
+    background-color: #ffffff;
 }
+.product-miniature img {
+    max-width: 250px;
+    max-height: 230px;
+    align-content: center;
+    margin-top: -46px;
+}
+
 .product-foto {
     margin: auto;
     width: 250px;
     height: 235px;
     margin-top: 10px;
-    background: lightgreen;
+    background: #eaeaea;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
 }
+
+body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(1) > div.product-foto {
+    background-image: url(samsungs7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 220px;
+}
+
+body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(2) > div.product-foto {
+    background-image: url(iphone7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(3) > div.product-foto {
+    background-image: url(xperia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-child(1) > div.product-foto {
+    background-image: url(iphone7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-child(2) > div.product-foto {
+    background-image: url(xperia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
 .main-price {
+    display: flex;
     width: 270px;
     height: 80px;
-    background: lightblue;
+/*    background: lightblue;*/
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 12px;
 }
+.main-price > p:nth-child(1) {
+    font: italic 900 14.01px / 18.012px Roboto;
+}
+.main-price > p:nth-child(2) {
+    font: italic 900 18.01px Roboto;
+}
+.main-price > p > strike {
+    color: #e24602;
+    font: italic 900 14.01px Roboto;
+}
+
 .pin-new {
+    position: relative;
+    z-index: 10;
     background: url(images/Corner.png);
     height: 46px;
     width: 46px;
@@ -246,12 +316,15 @@ body {
     color: #ffffff;
 }
 .pin-new > p {
+    z-index: 10;
     margin-left: 21px;
     margin-top: 10px;
     font: 400 9px Roboto;
     font-style: normal;
 }
 .pin-hot {
+    position: relative;
+    z-index: 10;
     background: url(images/Corner1.png);
     height: 46px;
     width: 46px;
@@ -424,6 +497,39 @@ body {
     margin-left: 171px;
     font: 400 12px / 21.6px Roboto;
 }
+.osn-product {
+    display: inline-flex;
+/*    flex-wrap: wrap;*/
+    margin-top: 20px;
+    background-color: #abeafa;
+/*    background: url(back-foto.jpg);*/
+    width: 1500px;
+    height: 350px;
+}
+.container-menu-product {
+    margin-top: 19px;
+}
+.navigation {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    color: #989898;
+    font: 400 12px Roboto;
+}
+.navigation a {
+    color: #989898;
+    font: 400 12px Roboto;
+    text-decoration: none;
+}
+.product-big-foto {
+    width: 370px;
+    height: 370px;
+    background-color: #eaeaea;
+}
+.product-price p {
+    color: #111111;
+    font: italic 500 20.94px / 20px Roboto;
+}
+
 h1 {
     color: black;
     font: 700 23px / 23px Raleway;
