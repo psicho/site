@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html  lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Магазин электроники</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container"> <!-- Начало основного блока.-->
+    <div class="osn">
+        <div class="logo">
+        <a href="index.html" target="_parent"> <img src="logo.jpg" alt="Цифровая техника" title="Цифровая техника"  class="ramka" height="100" /></a>
+        </div>
+        <div class='header'>
+            <h1>Магазин электроники</h1>
+        </div>
+<!--        <hr>-->
+        <div>
+        <ul class='menu'>
+            <li><a href="index.html" target="_parent">Главная</a></li>
+            <li><a href="catalog.html" target="_parent">Каталог</a></li>
+            <li><a href="contacts.html" target="_parent">Контакты</a></li>
+        </ul>
+        </div>
+    </div>
+    <hr>
+    <h2>Напишите нам</h2>
+
+    <form action="#">
+		<fieldset class="col">
+			<legend>Форма обратной связи</legend>
+			<p >
+                <label for="txt"></label> <input class="fir" id="txt" type="text" placeholder="Введите Имя">
+            </p>
+			<p >
+                <label for="mail"></label> <input id="mail" type="email" placeholder="Введите e-mail">
+            </p>
+            <p class="fir">
+            <label for="txt"></label> <input class="fir" id="txt1" type="text" placeholder="Тема сообщения">
+            </p>
+            <p>
+				<select >
+                    <option>Выберите раздел</option>
+					<option>Общие вопросы</option>
+					<option>Оплата</option>
+					<option>Доставка</option>
+					<option>Гарантия</option>
+                    <option>Возврат товара</option>
+				</select>
+			</p>
+			<textarea class="fir" placeholder="Текст сообщения"></textarea>
+			<p>
+				<input type="submit" value="Отправить">
+   				<input type="reset" value="Очистить">
+   			</p>
+
+		</fieldset>
+	</form>
+    <div class="contacts">
+    <h2>Адрес</h2>
+    <ul class='adres'>
+        <li>Телефон: 8(800) 200-10-10</li>
+        <li>Адрес: Санкт-Петербург, Невский пр., д.30</li>
+        <li>e-mail: info@shop.ru</li>
+    </ul>
+    </div>
+    <iframe src="https://api-maps.yandex.ru/frame/v1/-/CZg852Lw" width="560" height="400"></iframe>
+    <hr>
+	<div class="footer">
+		<p>&copy; Все права защищены</p>
+    </div>
+</div>
+</body>
+</html>
