@@ -622,6 +622,29 @@ body > div > div.container-menu-product > div > div.product-catalog > div > div:
     background-size: 220px;
 }
 /*Фотографии в каталоге конец: */
+.product-big-form {
+    float: left;
+    width: 370px;
+    height: 500px;
+}
+.company-adres {
+    display: inline-block;
+    margin-left: 30px;
+    color: #333333;
+    font: 400 14px / 14px Roboto;
+}
+.adres li {
+    list-style-type: none;
+    color: #333333;
+    font: 400 14px / 14px Roboto;
+    margin-bottom: 10px;
+}
+.adres li:nth-child(1) {
+    color: #353535;
+    font: 900 18px / 14px Roboto;
+    margin-bottom: 10px;
+}
+
 h1 {
     margin-top: -15px;
     color: #707070;
@@ -684,34 +707,32 @@ p {
 
 }
 label, .col {
-    font-style: italic;
-    font-size: 16px;
-    line-height: 20px;
-    color: darkblue;
-    font-weight: bold;
+    color: #333333;
+    font: 400 12px Roboto;
+    border: #26d2fc;
 }
 input, textarea, select {
-    font-size: 12px;
-    line-height: 10px;
-    font-style: italic;
-    color: darkblue;
-}
-
-.fir {
-    text-transform: capitalize;
+    color: #333333;
+    font: 400 16px Roboto;
+    padding: 10px;
 }
 form {
     margin: 10px;
-/*    border: 2px solid darkblue;*/
+    margin-bottom: 100px;
+}
+form legend {
+    color: #333333;
+    font: 700 20px Roboto;
 }
 fieldset {
-    height: 50%;
-    width: 50%;
-    background: lightyellow;
+    color: #333333;
+    font: 400 16px Roboto;
 }
 textarea {
-    height: 80px;
-    width: 93%;
+    width: 350px;
+    height: 100px;
+    color: #333333;
+    font: 400 16px Roboto;
     margin-left: 10px;
 }
 
@@ -729,9 +750,6 @@ textarea {
     line-height: 20px;
     color: darkblue;
     font-weight: 600;
-}
-#mail:focus {
-    color: red;
 }
 .buy {
     font-weight: 600;
