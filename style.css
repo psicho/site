@@ -86,7 +86,7 @@ body {
     padding-top: 8px;
 }
 .logo {
-    padding-left: 234px;
+    padding-left: 200px;
     padding-top: 24px;
 }
 .header {
@@ -257,35 +257,35 @@ body {
     background-size: 100px;
 }
 
-body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(1) > div.product-foto {
+body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(1) > a > div.product-foto {
     background-image: url(samsungs7.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 220px;
 }
 
-body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(2) > div.product-foto {
-    background-image: url(iphone7.jpg);
+body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(2) > a > div.product-foto {
+    background-image: url(insta-iphone7.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 250px;
+    background-size: 230px;
 }
 
-body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(3) > div.product-foto {
+body > div > div.container-menu > div.new-product > div:nth-child(2) > div:nth-child(3) > a > div.product-foto {
     background-image: url(xperia.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 180px;
 }
 
-body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-child(1) > div.product-foto {
-    background-image: url(iphone7.jpg);
+body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-child(1) > a > div.product-foto {
+    background-image: url(insta-iphone7.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 250px;
+    background-size: 230px;
 }
 
-body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-child(2) > div.product-foto {
+body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-child(2) > a > div.product-foto {
     background-image: url(xperia.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -623,8 +623,9 @@ body > div > div.container-menu-product > div > div.product-catalog > div > div:
 }
 /*Фотографии в каталоге конец: */
 h1 {
-    color: black;
-    font: 700 23px / 23px Raleway;
+    margin-top: -15px;
+    color: #707070;
+    font: italic 900 26px Roboto;
 }
 h2 {
     margin-top: 15px;
