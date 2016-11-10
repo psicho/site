@@ -525,7 +525,15 @@ body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-c
     height: 370px;
     background-color: #eaeaea;
 }
-.product-price p {
+.product-price {
+    margin-left: 46px;
+}
+.product-price p:nth-child(1) {
+    color: #111111;
+    font: italic 500 20.94px / 20px Roboto;color: #353535;
+    font: 700 24px Roboto;
+}
+.product-price p:nth-child(2) {
     color: #111111;
     font: italic 500 20.94px / 20px Roboto;
 }
