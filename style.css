@@ -215,6 +215,11 @@ body {
     justify-content: space-between;
     background-color: #f8f8f8;
 }
+.product-main a {
+    width: 250px;
+    height: 235px;
+    color: #333333;
+}
 .new-product > p {
     margin-top: 31px;
     margin-left: 25px;
@@ -597,7 +602,7 @@ body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-c
     font: 400 11px / 15px Verdana;
 }
 /*Фотографии в каталоге начало: */
-body > div > div.container-menu-product > div > div.product-catalog > div > div:nth-child(2) > div.product-foto {
+body > div > div.container-menu-product > div > div.product-catalog > div > a:nth-child(2) > div > div.product-foto {
     background-image: url(insta-iphone7.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -609,7 +614,7 @@ body > div > div.container-menu-product > div > div.product-catalog > div > div:
     background-repeat: no-repeat;
     background-size: 180px;
 }
-body > div > div.container-menu-product > div > div.product-catalog > div > div:nth-child(1) > div.product-foto {
+body > div > div.container-menu-product > div > div.product-catalog > div > a:nth-child(1) > div > div.product-foto {
     background-image: url(samsungs7.png);
     background-position: center;
     background-repeat: no-repeat;
